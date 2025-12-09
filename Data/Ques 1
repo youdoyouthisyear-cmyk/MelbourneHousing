@@ -1,0 +1,12 @@
+Question 1: Which Melbourne LGAs have seen the biggest changes in population, rental vacancies, and new home approvals over the past five years, and how are these trends related to their distance from the CBD?
+ABS Regional Population (LGA-level, 2020-2025): Annual population growth/decline by LGA via https://www.abs.gov.au/statistics/people/population/regional-population/latest-release (Excel downloads, filter Melbourne LGAs).​
+
+REIV Residential Rentals (monthly vacancies, 2020-2025): Vacancy rates by postcode/LGA at https://reiv.com.au/market-insights/data-analysis/residential-rental (historical series from 2002).​
+
+ABS Building Approvals (LGA, quarterly 2020-2025): New approvals via https://www.housingdata.gov.au/visualisation/housing-market/building-approvals-local-government-area or main ABS site https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia.​
+
+CBD Distance: Compute via geopandas from LGA centroids to Melbourne CBD (37.8136°S, 144.9631°E); CLUE for suburb joins https://data.melbourne.vic.gov.au/explore/dataset/residential-dwellings/.
+
+1. ABS: https://www.abs.gov.au/statistics/people/population/regional-population/latest-release
+2. Building Approval: https://www.housingdata.gov.au/visualisation/housing-market/building-approvals-local-government-area
+3. CBD Distance: https://data.melbourne.vic.gov.au/explore/dataset/residential-dwellings/information/?disjunctive.dwelling_type&disjunctive.clue_small_area&disjunctive.block_id&disjunctive.dwelling_number
